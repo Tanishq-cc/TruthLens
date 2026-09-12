@@ -1,0 +1,16 @@
+Best model: Linear SVM
+
+              Model  Accuracy  Precision   Recall  F1 Score
+         Linear SVM  0.965855   0.961903 0.972038  0.966944
+Logistic Regression  0.951627   0.946590 0.960016  0.953256
+        Naive Bayes  0.877507   0.868016 0.898149  0.882825
+
+Classification report for best model:
+              precision    recall  f1-score   support
+
+        Fake       0.97      0.96      0.96      7006
+        Real       0.96      0.97      0.97      7403
+
+    accuracy                           0.97     14409
+   macro avg       0.97      0.97      0.97     14409
+weighted avg       0.97      0.97      0.97     14409
